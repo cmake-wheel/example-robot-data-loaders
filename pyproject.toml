@@ -1,9 +1,9 @@
 [build-system]
 build-backend = "cmeel"
-requires = ["cmeel[build]", "pin[build]", "example-robot-data == 4.4.0"]
+requires = ["cmeel[build]", "example-robot-data == 4.4.0", "pin[build]"]
 
 [project]
-dependencies = ["pin", "example-robot-data == 4.4.0"]
+dependencies = ["example-robot-data == 4.4.0", "pin"]
 description = "Set of robot URDFs for benchmarking and developed examples."
 license = "BSD-3-Clause"
 name = "example-robot-data-loaders"
@@ -17,7 +17,7 @@ upstream = "https://github.com/gepetto/example-robot-data"
 [tool.cmeel]
 configure-args = [
   "-DBUILD_PYTHON_INTERFACE=ON",
-  "-DBUILD_STANDALONE_PYTHON_INTERFACE=ON",
+  "-DBUILD_STANDALONE_PYTHON_INTERFACE=ON"
 ]
 has-binaries = false
 run-tests-after-install = true
