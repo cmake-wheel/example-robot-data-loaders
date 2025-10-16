@@ -7,7 +7,7 @@ dependencies = ["pin", "example-robot-data == 4.4.0"]
 description = "Set of robot URDFs for benchmarking and developed examples."
 license = "BSD-3-Clause"
 name = "example-robot-data-loaders"
-version = "4.3.0"
+version = "4.4.0"
 
 [project.urls]
 changelog = "https://github.com/Gepetto/example-robot-data/blob/devel/CHANGELOG.md"
@@ -15,7 +15,6 @@ homepage = "https://github.com/cmake-wheel/example-robot-data-loaders"
 upstream = "https://github.com/gepetto/example-robot-data"
 
 [tool.cmeel]
-build-number = 1
 configure-args = [
   "-DBUILD_PYTHON_INTERFACE=ON",
   "-DBUILD_STANDALONE_PYTHON_INTERFACE=ON",
