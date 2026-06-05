@@ -1,13 +1,13 @@
 [build-system]
 build-backend = "cmeel"
-requires = ["cmeel[build]", "example-robot-data == 4.4.0", "pin[build]"]
+requires = ["cmeel[build]", "example-robot-data == 5.0.0", "pin[build]"]
 
 [project]
-dependencies = ["example-robot-data == 4.4.0", "pin"]
+dependencies = ["example-robot-data == 5.0.0", "pin"]
 description = "Set of robot URDFs for benchmarking and developed examples."
 license = "BSD-3-Clause"
 name = "example-robot-data-loaders"
-version = "4.4.0"
+version = "5.0.0"
 
 [project.urls]
 changelog = "https://github.com/Gepetto/example-robot-data/blob/devel/CHANGELOG.md"
