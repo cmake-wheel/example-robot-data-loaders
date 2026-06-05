@@ -15,6 +15,7 @@ homepage = "https://github.com/cmake-wheel/example-robot-data-loaders"
 upstream = "https://github.com/gepetto/example-robot-data"
 
 [tool.cmeel]
+build-number = 1
 configure-args = [
   "-DBUILD_PYTHON_INTERFACE=ON",
   "-DBUILD_STANDALONE_PYTHON_INTERFACE=ON"
