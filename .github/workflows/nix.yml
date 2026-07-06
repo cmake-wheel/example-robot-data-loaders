@@ -2,11 +2,13 @@ name: "CI - Nix"
 on:
   push:
     branches:
+      - cmeel
       - devel
       - master
       - main
   pull_request:
     branches:
+      - cmeel
       - devel
       - master
       - main
